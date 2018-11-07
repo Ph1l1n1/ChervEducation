@@ -10,7 +10,7 @@ import java.util.HashSet;
  * delDuplicates([]); // вернёт []
  */
 
-public class task4 {
+    public class task4 {
     public static void main(String[] args) {
         Integer[] array = {1, 2, 3, 4, 3, 2, 5};
 
