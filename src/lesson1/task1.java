@@ -1,7 +1,7 @@
-package lesson1.task1;
+package lesson1;
 
 
-public class Main {
+public class task1 {
     public static void main(String[] args) {
         // объявляю переменную
         String msg = "Hello" + " " + "Bob!";
@@ -10,7 +10,7 @@ public class Main {
     }
 }
 
-// Скомпилируйте данный класс и далее выполните декомпиляцию для созданного во время компиляции "Main.class" файла.
+// Скомпилируйте данный класс и далее выполните декомпиляцию для созданного во время компиляции "task1.class" файла.
 // Попробуйте объяснить, почему содержимое java и class файла разное ?
 
 // Ответ : pft,bc
