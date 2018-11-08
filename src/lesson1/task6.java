@@ -27,7 +27,6 @@ public class task6 {
             array[i] = num;
         }
 
-
         return array;
     }
 
