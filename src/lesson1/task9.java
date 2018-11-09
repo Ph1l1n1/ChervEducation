@@ -13,7 +13,7 @@ package lesson1;
 public class task9 {
 
     public static void main(String[] args) {
-        Integer[] array = {50, 61, 90, 187, 887, 3640, -2, 0, 8640, 25640};
+        Integer[] array = {50, 61, 90, 188, 887, 3640, -2, 0, 8640, 25640};
 
         for (int i = 0; i < array.length; i++) {
             String str = getarray(array[i]);
