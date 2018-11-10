@@ -29,6 +29,7 @@ public class task11 {
 
         for (int i = 0; i < nums; i++) {
 
+
             if (corner == 1) {
                 x++;
                 currentlevel = x + 1;
