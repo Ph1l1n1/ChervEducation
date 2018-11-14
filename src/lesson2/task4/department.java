@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class department {
     private String named;
-    private ArrayList<worker> listofworker = new ArrayList<>();
+    private ArrayList<Worker> listofworker = new ArrayList<>();
 
     public department(){
 

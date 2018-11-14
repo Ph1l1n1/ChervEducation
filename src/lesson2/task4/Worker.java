@@ -1,7 +1,7 @@
 package lesson2.task4;
 
 
-public class worker {
+public class Worker {
 
     private String name;
     private String dept;
@@ -9,7 +9,7 @@ public class worker {
     private int perhour;
 
 
-    public worker(String name, String dept, int hour, int perhour) {
+    public Worker(String name, String dept, int hour, int perhour) {
         this.name = name;
         this.dept = dept;
         this.hour = hour;

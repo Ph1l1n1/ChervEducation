@@ -15,10 +15,10 @@ public class hr_studio {
         while (true) {
             switch (in.nextLine()) {
                 case "add":
+                    System.out.println("Insert name, dept, hour, perhour");
+                    String name = addworker();
 
-                    addworker();
-
-                    System.out.println("add worker");
+                    System.out.println("worker " + name + " added");
                     break;
                 case "remove":
                     System.out.println("remove worker");
@@ -46,13 +46,15 @@ public class hr_studio {
 
     }
 
-    private static void addworker() {
+    private static String addworker() {
         Scanner in = new Scanner(System.in);
         String name = in.nextLine();
         String dept = in.nextLine();
         int hour = Integer.parseInt(in.nextLine());
         int percost = Integer.parseInt(in.nextLine());
 
+        Worker worker = new Worker(name,dept,hour,percost);
+        return name;
 
     }
 
