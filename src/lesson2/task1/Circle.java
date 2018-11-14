@@ -1,4 +1,4 @@
-package lesson2;
+package lesson2.task1;
 
 /**
  * -- задание на введение в классы и экземпляры --

@@ -1,8 +1,7 @@
-package lesson2;
+package lesson2.task1;
 
 
 import java.lang.reflect.Field;
-import java.util.Hashtable;
 
 public class TestCircle {
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
