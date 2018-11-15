@@ -4,8 +4,9 @@ package lesson2.task4;
 public class Worker {
 
     private String name;
-    private int hour;
+
     private int perhour;
+
     private Department dept;
 
     public Worker(String name, int hour, int perhour) {
@@ -21,7 +22,7 @@ public class Worker {
     @Override
     public String toString() {
         return "Worker{" +
-                "name='" + name + '\'' +
+                "name=" + name +
                 ", hour=" + hour +
                 ", perhour=" + perhour +
                 ", dept=" + getDept().getNamed() +
@@ -35,5 +36,15 @@ public class Worker {
 
     public Department getDept() {
         return dept;
+    }
+
+    public int getHour() {
+        return hour;
+    }
+
+    private int hour;
+
+    public int getPerhour() {
+        return perhour;
     }
 }
