@@ -19,11 +19,11 @@ public class task2 {
         String str = "4of Fo1r pe6ople g3ood th5e the2";
 
         String[] arrayword = str.split(" ");
-        String[] arraybysort = new String[arrayword.length+1];
+        String[] arraybysort = new String[arrayword.length];
 
         for (int i = 0; i < arrayword.length; i++) {
             int numofsort = Integer.parseInt(arrayword[i].replaceAll("\\D+",""));
-            arraybysort[numofsort] = arrayword[i];
+            arraybysort[numofsort-1] = arrayword[i];
         }
 
         System.out.println(Arrays.toString(arraybysort));
