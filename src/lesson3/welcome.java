@@ -44,7 +44,7 @@ public class welcome {
                  String welcome = lang.getWlc();
                  System.out.println(welcome);
              } catch (Exception ex) {
-                 System.out.println("i dont understand you mather fucker, repeat please donkey!!!");
+                 System.out.println(Wtexts.english.getWlc());
              }
         }
     }
