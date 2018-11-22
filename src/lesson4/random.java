@@ -1,11 +1,11 @@
 package lesson4;
 
+//Напишите метод который бы случайным образом смешивал элементы коллекции типа List
 
-// Напишите метод который бы переворачивал коллекцию типа List. [1,2,3,4,5]=>[5,4,3,2,1]
+import java.util.Arrays;
+import java.util.List;
 
-import java.util.*;
-
-public class collection1 {
+public class random {
 
     public static void main(String[] args) {
 
@@ -13,12 +13,7 @@ public class collection1 {
 
         //integerList.sort((right, left) -> left - right);
 
-        Collections.  reverse(integerList);
-
         System.out.println(integerList);
-
-
-
 
 
     }
